@@ -4,7 +4,9 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,900&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="fonts/icomoon/style.css">
 
@@ -17,11 +19,14 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>Contact Form #1</title>
+
+
+
   </head>
-  <body style="color:#0532C6">
+  <body >
   <!-- ======= Top Bar ======= -->
   <section id="topbar" class="d-flex align-items-center">
-    <div class="container d-flex justify-content-center justify-content-md-between">
+    <div id="container" class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
         <a href="index.html"><img src="images/indxx logo.png"></a>
       </div>
@@ -33,9 +38,9 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
+    <div id="container" class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo">Contact Us</a></h1>
+      <p class="logo">Contact Us</a></p>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
 
@@ -53,15 +58,15 @@
 
     </div>
   </header><!-- End Header -->
-   <div class="container">
-     <div class="row">
-        <div class="col-md-12">
-    <h1 class="text-overlay">Thank you for contacting us. <br/>We’ll be sure to get right back to you.</h1>
-  <img src="images/trapazoid box.png" style="width:100%"></div></div></div>
- <div class="container">
+   <div id="container" class="container fullwidth">
+     </div>
+        <div class="">
+    <p class="text-overlay">Thank you for contacting us. <br/>We’ll be sure to get right back to you.</p>
+  <img src="images/trapazoid box.png" class="imagebox"></div>
+ <div id="container" class="container">
  <div class="row cobtact-info">
   <div class="col-sm-4 global-contact">
-<div class="square"></div>
+<div class="square" id="square"></div>
     <h3 class="global"> Our Global Contact </h3>
   <p class="details">phone: +1 (844) 55-INDXX (46399)</p>
   <p class="details">Email: info@indxx.com</p>
@@ -90,6 +95,7 @@
                     <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone">
                   </div>
                 </div>
+                <div class="form-title">Message</div>
                 <div class="row">
                   <div class="col-md-12 form-group">
                     <textarea class="form-control" name="message" id="message" cols="30" rows="7" placeholder="Write your message"></textarea>
@@ -97,39 +103,41 @@
                 </div>
                 <div class="row">
                   <div class="col-md-12">
-                    <input type="submit" value="submit" class="btn btn-primary rounded-0 py-2 px-4">
+                    <input type="submit" value="SUBMIT" id="backgroundnone" class="btn btn-primary rounded-0 py-2 px-4">
                     <span class="submitting"></span>
                   </div>
                 </div>
               </form>
 </div>
-</div><hr/>
 </div>
+</div>
+<hr/>
 
-<div class="container">
+<div id="container" class="container">
     <h1 class="office">Our Offices</h1>
   <div class="row">
     <div class="col-sm">
-        <h3 class="global"><div class="square"></div>USA</h3>
-        <p class="details">New York: 470 Park Avenue South, Floor 8 South New York, NY 10016 </p>
-        <p class="details">Miami: 5201 Blue Lagoon Drive,Suite 220 Miami, FL 33126</p>
+        <h3 class="global"><div class="square" id="square"></div>USA</h3>
+        <p class="details">New York: <br> 470 Park Avenue South, Floor 8 South <br> New York, NY 10016 </p>
+        <p class="details">Miami: <br> 5201 Blue Lagoon Drive,Suite 220 <br> Miami, FL 33126</p>
     </div>
     <div class="col-sm">
-        <h3 class="global"><div class="square"></div>Europe</h3>
-        <p class="details">Na Pankráci 1618/30 140 00 Prague 4 Nusle Czech Republic</p>
+        <h3 class="global"><div class="square" id="square"></div>Europe</h3>
+        <p class="details">Na Pankráci 1618/30 <br> 140 00 Prague 4 <br> Nusle <br> Czech Republic</p>
     </div>
     <div class="col-sm">
-        <h3 class="global"><div class="square"></div>Asia</h3>
-        <p class="details">Indxx Tower 390, Electronic City Phase IV, Udyog Vihar, Sector 18 Gurugram 122022 India</p>
+        <h3 class="global"><div class="square" id="square"></div>Asia</h3>
+        <p class="details">Indxx Tower <br> 390, Electronic City <br> Phase IV, Udyog Vihar, Sector 18 <br> Gurugram 122022 <br> India</p>
 
-        <p class="details">91springboard JP Nagar 175 & 176, Bannerghatta Main Rd  Dollars Colony Bengaluru Karnataka 560076 India</p>
-        <p class="details">91 Springboard Business Hub Private Limited, Mythri Square 2-41/11, 6/2 Gachibowli - Miyapur Road Laxmi Cyber City Prasanth Nagar Colony, Kondapur, Hyderabad Telangana 500084 India</p>
+        <p class="details">91springboard JP Nagar <br> 175 & 176, Bannerghatta Main Rd <br> Dollars Colony <br> Bengaluru <br> Karnataka 560076 <br> India</p>
+        <p class="details">91 Springboard Business Hub Private Limited, Mythri Square <br> 2-41/11, 6/2 Gachibowli - Miyapur Road <br> Laxmi Cyber City <br> Prasanth Nagar Colony, Kondapur, Hyderabad <br> Telangana 500084 <br> India</p>
     </div>
-  </div><hr/>
+  </div>
 </div>
+<hr/>
 <footer>
-<div class="container" style="padding-bottom: 20px">
-<div class="row align-items-start">
+<div id="container" class="container" style="padding-bottom: 20px">
+<div class="row align-items-start align-items-start2">
     <div class="col-md-12">
         <button type="button" value="SUBSCRIBE TO INDXX" class="btn btn-primary rounded-0 py-2 px-4" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">SUBSCRIBE TO INDXX
         </button>
@@ -206,7 +214,10 @@
           </div>
       </div>
   </div>
-  <div class="col-6 col-md-6">© 2022 IndXX. All rights reserved | Designed & Developed by Indxx
+  <div class="col-6 col-md-6">
+<div class="row copyright">
+© 2022 IndXX. All rights reserved | Designed & Developed by Indxx
+</div>
   </div>
     </div>
   </div>
