@@ -627,3 +627,109 @@ height : 14rem;
   max-width: 90%;
 }
 }
+
+/*//Custom css//*/
+.classone{
+
+  font-weight: 800;
+
+  font-size: 40px;
+
+  line-height: 60px;
+
+  color: #0532C6;
+
+}
+
+.classtwoupper{
+
+  font-weight: 400;
+
+  font-size: 67px;
+
+  color: #0532C6;
+
+  line-height: 100.5px;
+
+}
+.classtwolower{
+
+  font-weight: 300;
+
+  font-size: 67px;
+
+  color:
+
+  #0532C6;
+
+  line-height: 100.5px;
+
+}
+.classthree{
+
+  font-weight: 400;
+
+  font-size: 43px;
+
+  line-height: 64.5px;
+
+  color: #0532C6;
+
+}
+.classfour{
+
+  font-weight: 300;
+
+  font-size: 43px;
+
+  line-height: 64.5px;
+
+  color: #0532C6;
+
+}
+.classfive{
+
+  font-weight: 400;
+
+  font-size: 43px;
+
+  line-height: 64.5px;
+
+  color: #0532C6;
+
+}
+
+.classsix{
+
+  font-weight: 600;
+
+  font-size: 43px;
+
+  line-height: 64.5px;
+
+  color: #0532C6;
+
+}
+.classseven{
+
+  font-weight: 700;
+
+  font-size: 43px;
+
+  line-height: 64.5px;
+
+  color: #0532C6;
+
+}
+
+.classeight{
+
+  font-weight: 800;
+
+  font-size: 43px;
+
+  line-height: 64.5px;
+
+  color: #0532C6;
+
+}
